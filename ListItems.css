@@ -1,0 +1,94 @@
+/* .list{
+    color: #fff;
+    width: 700px;
+    background-color: black;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding:  90px;
+    margin-right: 100px;
+    overflow: auto;
+
+   
+} */
+  
+@import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
+
+.list{
+    color: #000000;
+    border: 1px solid #EEEEEE;
+    box-shadow: 1px 1px 0 #DDDDDD;
+    display: inline-block;
+    vertical-align: top;
+    
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 24px;
+    line-height: 20px;
+    margin: 2% auto;
+    padding: 22px 20px 3px 40px;
+    resize: none;
+    min-height: 290px;
+    width: 500px;
+    overflow: hidden;
+
+    margin-left: 200px;
+
+    background-color: #FFFFFF;
+    background-image: -moz-linear-gradient(top, transparent, transparent 19px, #E7EFF8 0px), -moz-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -moz-radial-gradient(3.9% 46%, circle closest-corner, #CCCCCC, #CCCCCC 43.5%, transparent 0%);
+    background-image: -webkit-linear-gradient(top, transparent, transparent 19px, #E7EFF8 0), -webkit-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -webkit-radial-gradient(3.9% 46%, circle closest-corner, #CCCCCC, #CCCCCC 43.5%, transparent 0%);
+    -webkit-background-size: 100% 20px;
+    background-size: 100% 20px;
+}
+
+
+
+
+
+
+
+
+.list p{
+    padding: 10px;
+}
+
+.list p span{
+
+    position: left;
+    right:10px;
+    cursor: pointer;
+}
+
+.faicons{
+    
+    margin: 0 5px;
+    font-size: 25px;
+    /* margin-left: 800px; */
+    margin-right: 20px;
+
+
+}
+
+.faCheck{
+    
+    margin: 0 5px;
+    font-size: 25px;
+    /* margin-left: 800px; */
+    margin-right: 100x;
+    
+
+}
+
+
+
+.list p input{
+    background-color: transparent;
+    border: 0px;
+    color: #fff;
+    font-size: 18px;
+
+
+}
+
+.list p input:focus{
+    outline: none;
+}
